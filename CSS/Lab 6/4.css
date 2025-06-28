@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: brown;
+}
+
+
+
+#a:hover{
+    color: yellow;
+}
+
+#b:hover{
+    font-size: 150%;
+}
+
+#c:hover{
+    background-color: black;
+}
+
+a#d:hover{
+    font-family: monospace;
+}
+
+#e:hover{
+    text-decoration: underline;
+}
+
+#f:hover{
+    text-decoration-style: wavy;
+}
+

@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.example {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.before-after::before {
+    content: "Before: ";
+    font-weight: bold;
+    color: blue;
+}
+
+.before-after::after {
+    content: " - After";
+    font-weight: bold;
+    color: red;
+}
+
+.first-line::first-line {
+    font-weight: bold;
+    color: green;
+}
+
+.first-letter::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: orange;
+}
+
+.selection::selection {
+    background-color: yellow;
+    color: black;
+}

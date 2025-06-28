@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    border: 1px solid;
+    width: 1000px;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#h{
+    color: blue;
+}
+
+.main h1{
+    text-align: center;
+}
+span{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+#p1{
+    text-align: center;
+}
