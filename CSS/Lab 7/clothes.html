@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cloths</title>
+
+<style>
+   *{box-sizing:border-box;}
+    body{
+        font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+        margin:0;
+        padding:0 25px;
+    }
+
+    h1{
+        text-align:center;
+        color:#e60000;          
+        font-style:italic;
+        margin:20px 0 40px;
+        font-size:2.4rem;
+    }
+
+    .item{
+        display:flex;
+        align-items:flex-start;
+        gap:25px;               
+        margin-bottom:55px;
+    }
+
+    .item img.pic{
+        width:90px;             
+        border-radius:6px;
+    }
+
+    .item h3{
+        margin:0 0 6px;
+        font-size:1.05rem;
+    }
+
+    .item ul{
+        margin:0;
+        padding-left:18px;
+        line-height:1.4;
+    }
+
+   .cart{
+        margin-left:auto;       
+    }
+
+    .cart img{
+        width:210px;
+        cursor:pointer;
+    }
+
+    @media (max-width:650px){
+        .item{
+            flex-direction:column;
+            gap:15px;
+        }
+        .cart{
+            margin-left:0;
+        }
+        .cart img{
+            width:180px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<h1>Cloths</h1>
+
+
+<section class="item">
+    <img class="pic" src="https://i.imgur.com/7j6pYhH.png" alt="Girls category">
+    <div>
+        <h3>For girls</h3>
+        <ul>
+            <li>Sari</li>
+            <li>Kurta</li>
+            <li>Skirt</li>
+            <li>One piece</li>
+        </ul>
+    </div>
+    <div class="cart">
+        <img src="https://i.imgur.com/fcnQ2DN.png" alt="Add to cart button">
+    </div>
+</section>
+
+
+<section class="item">
+    <img class="pic" src="https://i.imgur.com/rAcqB5L.png" alt="Boys category">
+    <div>
+        <h3>For Boys</h3>
+        <ul>
+            <li>Shirt</li>
+            <li>Pant</li>
+            <li>T‑shirt</li>
+            <li>Coat</li>
+        </ul>
+    </div>
+    <div class="cart">
+        <img src="https://i.imgur.com/fcnQ2DN.png" alt="Add to cart button">
+    </div>
+</section>
+
+
+<section class="item">
+    <img class="pic" src="https://i.imgur.com/tTv9Won.png" alt="Kids category">
+    <div>
+        <h3>For kids</h3>
+        <ul>
+            <li>Shorts</li>
+            <li>Frock</li>
+            <li>T‑shirt</li>
+            <li>Jacket</li>
+        </ul>
+    </div>
+    <div class="cart">
+        <img src="https://i.imgur.com/fcnQ2DN.png" alt="Add to cart button">
+    </div>
+</section>
+
+</body>
+</html>
