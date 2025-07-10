@@ -166,6 +166,12 @@ h1, h2, h3 {
     color: #36d1c4;
     font-size: 20px;
 }
+.about > div > h2 {
+    display: inline-block;
+    border-bottom: 4px solid #36d1c4;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
 
 /* ========== Skills Section ========== */
 .skills-section {
@@ -346,4 +352,35 @@ footer {
         width: 90vw;
         max-width: 400px;
     }
+}
+
+/* Pop effect for h3 when navigated to */
+.pop-h3 {
+    transition: font-size 0.3s cubic-bezier(.68,-0.55,.27,1.55), color 0.3s;
+    font-size: 2.3em !important;
+    color: #36d1c4 !important;
+}
+
+/* Scroll to top button styles */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 999;
+    background: #b0e8f5;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.18);
+    cursor: pointer;
+    display: none;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+#scrollTopBtn:hover {
+    background: #5b86e5;
+    box-shadow: 0 4px 16px rgba(44,62,80,0.25);
+}
+#scrollTopBtn img {
+    display: block;
+    margin: 0 auto;
 }
