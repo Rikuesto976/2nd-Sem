@@ -96,7 +96,7 @@
             echo "<b>Hobby</b>";
             foreach($hobby as $value)
             {
-                echo "<li>$value </li>";
+                echo "<li>".$value."</li>";
             }
         
             echo "<br>";
