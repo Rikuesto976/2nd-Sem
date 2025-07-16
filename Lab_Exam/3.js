@@ -1,1 +1,0 @@
-Name = prompt("Enter Name: ");
